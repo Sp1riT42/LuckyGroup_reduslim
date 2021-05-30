@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reduslim</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="order">
+        <div class="order__top">
+            <div class="order__top-box">
+                <p class="order__text">Reduslim</p>
+                <p class="order__text">ECO</p>
+            </div>
+
+            <div class="order__img-box"><img class="order__img" src="./img/reduslim.png" alt="photo"></div>
+        </div>
+        <div class="order__bottom">
+            <h2 class="order__heading">Сделай шаг к выздоровлению</h2>
+            <form action="#" class="order__form">
+                <label class="order__label" for="name">Ваше <span class="order__label_select">имя</span></label>
+                <input class="order__input order__input_name" type="text" id="name" placeholder="Алексей">
+                <div class="order__form-box">
+                    <label class="order__label" for="phone">Ваш
+                        <span class="order__label_select">телефон</span>
+                        <input class="order__input order__input_phone" type="tel" id="phone" placeholder="+7 (123) 456 78-90">
+                    </label>
+                    <div class="order__select-container">
+                        <select class="order__select">
+                            <option class="order__select-item">RU</option>
+                        </select>
+                        <img class="order__select-img" src="./img/rus.png" alt="country">
+                    </div>
+
+                </div>
+            <button type="submit" class="order__btn btn">Заказать</button>
+            </form>
+            <div class="order__lock">
+                <p class="order__text order__text_sm">Trusted</p>
+                <img class="order__lock-img" src="./img/lock.svg" alt="lock">
+                <p class="order__text order__text_sm">Secure</p>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
